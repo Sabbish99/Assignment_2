@@ -283,7 +283,7 @@ Group of Architects styles end
     border-radius: 8px;
     padding: 50px;
     text-align: center;
-    transition: width 2s;
+
 }
 
 .achievement-3 h1 {
@@ -508,6 +508,12 @@ footer {
         gap: 10px;
     }
 
+    .achievement-3:hover {
+        background-color: #FF900E;
+        color: white;
+
+
+    }
 
     /* som facts */
     .fact-2 {
