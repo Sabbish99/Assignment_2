@@ -164,7 +164,7 @@ Group of Architects styles end
 
 .love-enjoy-2 {
     width: 1350px;
-    border: 2px solid red;
+
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -191,7 +191,7 @@ Group of Architects styles end
 }
 
 .love-enjoy-4 {
-    /* border: 2px solid red; */
+
     margin-top: 20px;
     padding: 30px;
     border-radius: 8px;
@@ -201,4 +201,122 @@ Group of Architects styles end
 
 .love-enjoy-4 h4 {
     font-size: 20px;
+}
+
+.btn-2 {
+    background-color: #FF900E;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 30px 45px;
+    position: relative;
+    left: 610px;
+    bottom: 100px;
+}
+
+.btn-2 h1 {
+    font-size: 65px;
+}
+
+.btn-2 p {
+    font-size: 25px;
+}
+
+/* Features you will love & enjoy end */
+
+/* some fact */
+.fact-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.fact-2 {
+    width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.fact-2 h1 {
+
+    font-size: 45px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.fact-2 p {
+
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(109, 109, 109);
+    padding-right: 40px;
+    padding-left: 10px;
+    margin-bottom: 100px;
+}
+
+
+/* some fact end*/
+
+
+
+
+/*-------------
+-----------
+----------- some achievements-----------------
+----------------
+------------ */
+.achievement-1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 180px;
+}
+
+.achievement-2 {
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.achievement-3 {
+    border: 3px solid #FF900E;
+    border-radius: 8px;
+    padding: 50px;
+    text-align: center;
+}
+
+.achievement-3 h1 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.achievement-3 p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/*-------------
+-----------
+----------- some achievements end-----------------
+----------------
+------------ */
+
+
+
+
+/* sponsors */
+.sponsor {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sponsor h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.sponsor p {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(107, 107, 107);
 }
