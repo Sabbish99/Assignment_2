@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.part-1 {
+    background-color: #f5e9dc;
+    padding-bottom: 50px;
+}
+
+/* header styles start*/
+.head-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.head-2 {
+    width: 1400px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.head-2 h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.head-3 a {
+    text-decoration: none;
+    color: black;
+    padding-left: 50px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* end of header style */
+
+
+
+/* Brand New 
+Group of Architects styles
+ */
+.brand-new-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.brand-new-2 {
+    width: 900px;
+}
+
+.brand-new-2 h1 {
+    font-size: 64px;
+}
+
+.brand-new-2 p {
+    font-size: 16px;
+    color: rgb(104, 104, 104);
+}
+
+.explore-more-btn {
+    padding: 20px 25px;
+    margin-top: 30px;
+    background-color: #FF900E;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+
+}
+
+/* brand new image */
+
+.brande-new-img {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.brande-new-img img {
+    height: 700px;
+    width: 1440px;
+}
+
+/* brand new image end*/
+
+
+/* Quick list of Our Features */
+
+.quick-list-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+
+}
+
+.quick-list-2 {
+    width: 1300px;
+    display: flex;
+    align-items: center;
+}
+
+.quick-list-3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.quick-list-4 {
+    padding-left: 70px;
+}
+
+.quick-list-4 h1 {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.silver-color {
+    color: rgb(105, 105, 105);
+    font-weight: 500;
+}
+
+.black-color {
+    color: black;
+    font-weight: 700;
+
+}
+
+.orange-color {
+    color: orange;
+    font-weight: 700;
+}
+
+/* Quick list of Our Features end*/
