@@ -8,12 +8,15 @@ body {
 }
 
 
+
+
+/* header styles start*/
 .part-1 {
     background-color: #f5e9dc;
     padding-bottom: 50px;
 }
 
-/* header styles start*/
+
 .head-1 {
     display: flex;
     justify-content: center;
@@ -46,7 +49,7 @@ body {
 
 
 /* Brand New 
-Group of Architects styles
+Group of Architects styles start
  */
 .brand-new-1 {
     display: flex;
@@ -80,7 +83,14 @@ Group of Architects styles
 
 }
 
-/* brand new image */
+/* Brand New 
+Group of Architects styles end
+ */
+
+
+
+
+/* brand new image start*/
 
 .brande-new-img {
     margin-top: 50px;
@@ -96,7 +106,7 @@ Group of Architects styles
 /* brand new image end*/
 
 
-/* Quick list of Our Features */
+/* Quick list of Our Features start*/
 
 .quick-list-1 {
     display: flex;
@@ -143,3 +153,52 @@ Group of Architects styles
 }
 
 /* Quick list of Our Features end*/
+
+
+/* Features you will love & enjoy start */
+.love-enjoy-1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.love-enjoy-2 {
+    width: 1350px;
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-top: 130px;
+}
+
+.love-enjoy-2 img {
+    height: 982px;
+    width: 708px;
+}
+
+.love-enjoy-3 h2 {
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.love-enjoy-3 p {
+    font-size: 16px;
+    color: rgb(136, 136, 136);
+
+}
+
+.love-enjoy-4 {
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 8px;
+    margin-right: 50px;
+    box-shadow: 1px 1px 10px rgb(180, 180, 180);
+}
+
+.love-enjoy-4 h4 {
+    font-size: 20px;
+}
