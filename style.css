@@ -443,3 +443,55 @@ footer {
 }
 
 /* footer end */
+
+
+
+
+
+
+
+
+
+/* responsive */
+/* responsive */
+/* responsive */
+/* responsive */
+.sabbir {
+    display: none;
+}
+
+/* mobile devices */
+@media screen and (max-width:576px) {
+
+    /* footer */
+    .foots {
+        width: 100%;
+    }
+
+    /* extra section */
+    .extra-2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: -80px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /* sponsor image */
+    .sec-10 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sponsor-img-1 {
+        width: 550px;
+    }
+
+    .sponsor-img-2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 20px;
+        padding-left: 70px;
+
+    }
+}
